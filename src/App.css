@@ -1,0 +1,13 @@
+/* Add spiral border, cursive font, and navy blue color for forms */
+form {
+  border: 3px solid darkgreen;
+  border-image: conic-gradient(darkgreen, navy);
+  border-image-slice: 1;
+  font-family: cursive;
+  color: navy;
+}
+
+/* Make titles bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
